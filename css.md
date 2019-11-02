@@ -22,7 +22,8 @@ If there happens to be two components in the same file(one being private), we on
 - Styles/
 	- InputList.scss
 
-```Component styles should always be namespaced under a selector with the suffix `-container`:
+```
+Component styles should always be namespaced under a selector with the suffix `-container`:
 
 ### Namespace Component Styles
 
