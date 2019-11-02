@@ -8,4 +8,5 @@ Our project generally adheres to the [Liferay Frontend Guidelines](https://githu
 
 
 - [Javascript|Typescript](./javascript.md)
+- [Language Keys](./languageKeys.md)
 - [CSS](./css.md)
