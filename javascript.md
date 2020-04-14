@@ -30,6 +30,26 @@ We [destructure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referen
 * The values are used more than once.
 * For readability.
 
+If we're destructuring from `this`, we generally want to group up our destructuring.
+e.g.
+
+**Bad**
+```typescript
+const {foo} = this.context;
+const {bar} = this.props;
+const {baz} = this.state;
+```
+
+**Good**
+```typescript
+const {
+  context: {foo},
+  props: {bar},
+  state: {baz}
+} = this;
+```
+
+
 ### When to create a folder for component organization.
 
 A folder should be created in the instance where a group of components are so related and interdependent that you would want to put them in the same file. This is preferred over having multiple components in a single file because it keeps the line count of files from growing too large.
