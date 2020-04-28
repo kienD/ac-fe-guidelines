@@ -19,6 +19,7 @@ We have separated language keys into 3 categories:
 * Sentence
 	* Sentences are self explanatory.
 	* This should just be in a sentence format.
+	* Sentences should generally always end in a period, exclamation mark, or question mark.
 	* e.g. `this-is-my-cool-sentence=This is my cool sentence.`
 
 You can also use [this](https://github.com/kienD/language-key-creator) to assist with language key creation.
